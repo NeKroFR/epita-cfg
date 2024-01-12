@@ -3,4 +3,4 @@ unzip /tmp/epiflop/config.zip
 rm -rf  ~/.config
 mv cfg/ ~/.config
 mv /tmp/epiflop/config ~/.config/i3/config
-mv bashrc ~/.bashrc
+mv /tmp/epiflop/bashrc ~/.bashrc
