@@ -1,2 +1,6 @@
 git clone https://github.com/NeKroFR/epita-cfg.git /tmp/epiflop
-sh /tmp/epiflop/a.sh
+unzip /tmp/epiflop/config.zip
+rm -rf  ~/.config
+mv cfg/ ~/.config
+mv /tmp/epiflop/config ~/.config/i3/config
+mv bashrc ~/.bashrc
